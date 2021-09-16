@@ -24,7 +24,7 @@ class StripeServices {
   };
   static init() {
     StripePayment.setOptions(StripeOptions(
-        publishableKey: "your_api_publishable_ke",
+        publishableKey: "your_api_publishable_key",
         merchantId: "Test",
         androidPayMode: 'test'));
   }
